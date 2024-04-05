@@ -28,7 +28,7 @@ The following image shows the map that results from these steps:
 
     ![Citibike](Images/44-Citibike_basic.png)
 
-#### Bonus
+#### ADDITIONAL / Further Steps
 
 1. Write code to perform a second API call to the [Citi Bike station status endpoint](https://gbfs.citibikenyc.com/gbfs/en/station_status.json). Take a few moments to study the data that the endpoint returns. In particular, notice `station_id`, `num_bikes_available`, `is_installed`, and `is_renting`.
 
