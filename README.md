@@ -1,10 +1,10 @@
 # Deploy the Citi Bike Project
 
-# Citi Bike Maps (Citi Bike Project)
+## Citi Bike Maps (Citi Bike Project)
 
 In this activity, you’ll use the  Citi Bike API to get the status and location of every Citi Bike station in New York City. This activity also includes a bonus portion.
 
-## EXECUTION
+### EXECUTION
 
 1. Use the [Citi Bike station information endpoint](https://gbfs.citibikenyc.com/gbfs/en/station_information.json) to get information about the station names and locations.Take a moment to study the data that the endpoint sends back in your browser. Note the following details:
 
@@ -28,7 +28,7 @@ The following image shows the map that results from these steps:
 
     ![Citibike](Images/44-Citibike_basic.png)
 
-### Bonus
+#### Bonus
 
 1. Write code to perform a second API call to the [Citi Bike station status endpoint](https://gbfs.citibikenyc.com/gbfs/en/station_status.json). Take a few moments to study the data that the endpoint returns. In particular, notice `station_id`, `num_bikes_available`, `is_installed`, and `is_renting`.
 
@@ -56,7 +56,7 @@ The following image shows the map that results from these steps:
 
 5. When you complete the app, deploy it to GitHub Pages.
 
-## Hint
+### Hint
 
 * Make sure that you run `python -m http.server` in the folder that contains your files. Because you'll do all the work on the front end of your app, you won't need to restart the router for any changes that you make.
 
@@ -73,7 +73,7 @@ The following image shows the map that results from these steps:
   ---
   © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
 
-## DEPLOYMENT
+### DEPLOYMENT
 
 You've been given a Plotly visualization project with `index.html`, `plot.js`, and `data.json`.
 
